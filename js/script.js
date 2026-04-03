@@ -19,4 +19,8 @@ addGuestButton.addEventListener("click", function () {
     listItem.innerText = guest;
     guestList.append(listItem);
   }
+  const clearInput = function () {
+    guestInput.value = "";
+  };
+  clearInput();
 });
