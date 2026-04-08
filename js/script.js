@@ -16,8 +16,8 @@ addGuestButton.addEventListener("click", function () {
   //   console.log(guest);
   if (guest !== "") {
     addToList(guest);
-    clearInput();
     updateGuestCount();
+    clearInput();
   }
 });
 
